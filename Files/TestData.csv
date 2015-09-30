@@ -1,0 +1,17 @@
+,Test1,http://api.openweathermap.org/data/2.5/weather?zip=94040,,Test Case#,Parameter to Test,Expected Value
+,Test2,http://api.openweathermap.org/data/2.5/weather?q=London,,Test1,name,Mountain View
+,Test3,http://api.openweathermap.org/data/2.5/weather?id=2172797,,Test1,lon,-122.08
+,Test4,http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139,,Test1,lat,37.39
+,<Last>,,,Test1,country,US
+,,,,Test2,name,London
+,,,,Test2,lon,-0.13
+,,,,Test2,lat,51.51
+,,,,Test2,country,GB
+,,,,Test3,name,Cairns
+,,,,Test3,lon,145.77
+,,,,Test3,lat,-16.92
+,,,,Test3,country,AU
+,,,,Test4,name,Shuzenji
+,,,,Test4,lon,138.93
+,,,,Test4,lat,34.97
+,,,,Test4,country,JP

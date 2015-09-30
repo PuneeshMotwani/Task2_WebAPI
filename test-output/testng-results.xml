@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="502" started-at="2015-09-30T09:55:15Z" finished-at="2015-09-30T09:55:15Z">
+    <groups>
+    </groups>
+    <test name="AllTests" duration-ms="502" started-at="2015-09-30T09:55:15Z" finished-at="2015-09-30T09:55:15Z">
+      <class name="Test.WeatherAPITestDriver">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Test.WeatherAPITestDriver@1e67b872]" name="beforeSuite" is-config="true" duration-ms="27" started-at="2015-09-30T11:55:15Z" finished-at="2015-09-30T11:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="ValidateAPIResponses(java.lang.String, java.lang.String)[pri:0, instance:Test.WeatherAPITestDriver@1e67b872]" name="ValidateAPIResponses" duration-ms="137" started-at="2015-09-30T11:55:15Z" data-provider="provideDataToTest" finished-at="2015-09-30T11:55:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?zip=94040]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAPIResponses -->
+        <test-method status="PASS" signature="ValidateAPIResponses(java.lang.String, java.lang.String)[pri:0, instance:Test.WeatherAPITestDriver@1e67b872]" name="ValidateAPIResponses" duration-ms="105" started-at="2015-09-30T11:55:15Z" data-provider="provideDataToTest" finished-at="2015-09-30T11:55:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?q=London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAPIResponses -->
+        <test-method status="PASS" signature="ValidateAPIResponses(java.lang.String, java.lang.String)[pri:0, instance:Test.WeatherAPITestDriver@1e67b872]" name="ValidateAPIResponses" duration-ms="120" started-at="2015-09-30T11:55:15Z" data-provider="provideDataToTest" finished-at="2015-09-30T11:55:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?id=2172797]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAPIResponses -->
+        <test-method status="PASS" signature="ValidateAPIResponses(java.lang.String, java.lang.String)[pri:0, instance:Test.WeatherAPITestDriver@1e67b872]" name="ValidateAPIResponses" duration-ms="82" started-at="2015-09-30T11:55:15Z" data-provider="provideDataToTest" finished-at="2015-09-30T11:55:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAPIResponses -->
+      </class> <!-- Test.WeatherAPITestDriver -->
+    </test> <!-- AllTests -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
